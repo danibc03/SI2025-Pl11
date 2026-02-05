@@ -155,7 +155,7 @@ CREATE TABLE Pagos (
     FOREIGN KEY (recibo_id) REFERENCES Recibos(recibo_id),
     FOREIGN KEY (reserva_id) REFERENCES Reservas(reserva_id),
     FOREIGN KEY (inscripcion_id) REFERENCES Inscripciones(inscripcion_id)
-);
+);.
 
 -- Tabla de créditos por cancelaciones
 CREATE TABLE Creditos (
