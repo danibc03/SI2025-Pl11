@@ -14,7 +14,7 @@ public class CarreraEntity {
 	private String inicio; //las fechas son string (vienen de sqlite)
 	private String fin;
 	private String fecha;
-	private String desc3r;
+	private String descr;
 
 	public String getId() { return this.id; }
 	public String getInicio() { return this.inicio; }

@@ -126,7 +126,7 @@ CREATE TABLE Inscripciones (
     estado TEXT NOT NULL CHECK(estado IN ('admitido', 'lista_espera')),
     pagado BOOLEAN DEFAULT 0,
     tipo TEXT NOT NULL CHECK(tipo IN ('socio', 'no_socio')),
-    FOREIGN KEY (actividad_id) REFERENCES Actividades(actividad_id),
+    FOREIGN KEY (actividad_id) REFERENCES Actividad(actividad_id),
     FOREIGN KEY (socio_id) REFERENCES Socios(socio_id)
 );
 

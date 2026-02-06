@@ -118,3 +118,4 @@ INSERT INTO Pagos (monto, fecha_pago, metodo, recibo_id, reserva_id, inscripcion
 -- Créditos
 INSERT INTO Creditos (socio_id, monto, fecha_generacion, fecha_aplicacion, descripcion) VALUES
 (1, 22.50, '2023-10-23', NULL, 'Cancelación reserva 4');
+
